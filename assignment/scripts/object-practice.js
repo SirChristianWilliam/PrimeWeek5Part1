@@ -10,16 +10,21 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
+  firstName: "Chris",
+  lastName: "Maki",
+  hasSiblings: true,
+  shoeCount: 4,
+  favThreeFoods: ["Burgers","Smoothies","Chicken"]
 };
 console.log('A little about me:', me);
-
-/* 2. Accessing object properties.
+ /* 2. Accessing object properties.
   - Create a variable called fullName 
   - Use the firstName & lastName properties of the object you 
     created above to set its value. 
   - Console.log fullName
 */
-
+let fullName = me.firstName + " " + me.lastName;
+console.log(fullName);
 
 
 /* 3. Nested arrays

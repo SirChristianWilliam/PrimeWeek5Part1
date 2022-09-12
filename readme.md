@@ -2,7 +2,7 @@
 
 This week, we'll be exploring objects by creating an application to help maintain a record collection. We will be creating objects using `object literal` syntax.
 
-## Topics Coveredf
+## Topics Covered
 
 - objects
 - HTML & CSS
