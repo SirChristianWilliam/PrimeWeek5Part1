@@ -1,0 +1,59 @@
+body {
+   background-image: linear-gradient(to right,magenta,cyan);
+    
+}
+h1,p {
+    color:black;
+    background-color: rgba(255,255,255,.4)
+     
+ }
+ h1#container {
+    display:inline;
+    width:200px;
+    margin-left:300px;
+ }
+ div {
+      display:inline;
+      border:5px solid black;
+     animation-name: mymove;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     border-radius: 100px;
+     position: relative;
+     box-shadow:0px 0px 5px black;
+      
+   
+   }
+  div#one {
+    position: absolute;
+    padding:30px;
+    background-image: linear-gradient(red,blue);
+    border-radius: 20px;
+    opacity:.8;
+    
+  }
+  div#two {
+    position: absolute;
+    padding:40px;
+    background-image: linear-gradient(blue,red);
+    border-radius: 30px;
+    opacity: .9;
+ 
+   
+  }
+  div#three {
+    position: absolute;
+    padding:60px;
+    background-image: linear-gradient(red,blue);
+    border-radius: 15px;
+
+    
+  }
+
+ @keyframes mymove {
+    0% {transform: rotate(0deg);}
+    50% {transform:rotate(180deg);}
+    100% {transform: rotate(360deg);}
+ };
+ 
